@@ -4,7 +4,7 @@
 
 ## 📖 Overview
 
-**etl-pipeline-microsoftsql-server** is an automated ETL (Extract, Transform, Load) pipeline designed to extract data from **Microsoft SQL Server**, process and transform it, and load it into **Google BigQuery**. It supports full historical data extraction as well as incremental syncing. The project exposes these ETL processes via a FastAPI application and is containerized for deployment on Kubernetes.
+**etl-pipeline-microsoftsql-server** is an automated ETL (Extract, Transform, Load) pipeline designed to extract data from **Microsoft SQL Server**, process and transform it, and load it into **Google BigQuery**. It supports full historical data extraction as well as incremental syncing. The project exposes these ETL processes via a GitLab API Trigger and is containerized for deployment on Kubernetes.
 
 ---
 
