@@ -2,7 +2,7 @@
 FROM python:3.12-slim
 
 # Set working directory
-WORKDIR /etl_microsoftsql_spinotale
+WORKDIR /etl_microsoftsql_server
 
 # Install system dependencies and Microsoft ODBC Driver
 RUN apt-get update && apt-get install -y \
